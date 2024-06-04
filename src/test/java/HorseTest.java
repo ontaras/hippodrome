@@ -86,7 +86,7 @@ class HorseTest {
 
     @ParameterizedTest
     @ValueSource(doubles = {-0.1, 0, 0.2, 0.4, 0.7, 0.9, 8})
-    public void new_getRandomDouble(double doubles) {
+    public void getRandomDouble_CalculatingMethod_returnCorrectValue(double doubles) {
         double speed = 10;
         double distance = 100;
         Horse horse = new Horse("noname", speed, distance);
