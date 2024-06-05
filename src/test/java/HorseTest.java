@@ -2,12 +2,14 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mockStatic;
+import static org.mockito.Mockito.when;
 
 
 @ExtendWith(MockitoExtension.class)
@@ -75,26 +77,28 @@ class HorseTest {
         assertEquals(1000.333, horse.getDistance());
     }
 
+    @Mock
+    MockedStatic<Horse> horseMockedStatic;
     @Test
     public void move_shouldInvokeGetRandomDoubleMethod_correctParams() {
-        MockedStatic<Horse> horseMockedStatic = mockStatic(Horse.class);
-        Horse horse = new Horse("noname", 10.555, 55.111);
+        Horse horse = new Horse("noname", 2.4);
         horse.move();
 
         horseMockedStatic.verify(() -> Horse.getRandomDouble(0.2, 0.9));
     }
 
     @ParameterizedTest
-    @ValueSource(doubles = {-0.1, 0, 0.2, 0.4, 0.7, 0.9, 8})
-    public void getRandomDouble_CalculatingMethod_returnCorrectValue(double doubles) {
-        double speed = 10;
-        double distance = 100;
+    @ValueSource(doubles = {0.04, 0.08, 0.2, 0.3, 0.6, 0.8, 0.9})
+    public void getRandomDouble_CalculatingMethod_returnCorrectValue(double randomDoubles) {
+        double speed = 2.9;
+        double distance = 0;
+        double expectedValue = distance + speed * randomDoubles;
+
         Horse horse = new Horse("noname", speed, distance);
-        double expectedValue = distance + speed * doubles;
-        try (MockedStatic<Horse> horseMockedStatic = mockStatic(Horse.class)) {
-            horseMockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(doubles);
-            horse.move();
-        }
+
+        horseMockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(randomDoubles);
+        horse.move();
+
 
         assertEquals(expectedValue, horse.getDistance());
     }
