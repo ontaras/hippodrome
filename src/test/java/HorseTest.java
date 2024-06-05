@@ -77,29 +77,29 @@ class HorseTest {
         assertEquals(1000.333, horse.getDistance());
     }
 
-    @Mock
-    MockedStatic<Horse> horseMockedStatic;
     @Test
     public void move_shouldInvokeGetRandomDoubleMethod_correctParams() {
-        Horse horse = new Horse("noname", 2.4);
-        horse.move();
+        try (MockedStatic<Horse> horseMockedStatic = Mockito.mockStatic(Horse.class)) {
+            Horse horse = new Horse("noname", 2.4);
+            horse.move();
 
-        horseMockedStatic.verify(() -> Horse.getRandomDouble(0.2, 0.9));
+            horseMockedStatic.verify(() -> Horse.getRandomDouble(0.2, 0.9));
+        }
     }
 
     @ParameterizedTest
     @ValueSource(doubles = {0.04, 0.08, 0.2, 0.3, 0.6, 0.8, 0.9})
     public void getRandomDouble_CalculatingMethod_returnCorrectValue(double randomDoubles) {
         double speed = 2.9;
-        double distance = 0;
-        double expectedValue = distance + speed * randomDoubles;
+        double expectedDistance = speed * randomDoubles;
 
-        Horse horse = new Horse("noname", speed, distance);
+        try (MockedStatic<Horse> horseMockedStatic = Mockito.mockStatic(Horse.class)) {
+            Horse horse = new Horse("noname", speed);
 
-        horseMockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(randomDoubles);
-        horse.move();
+            horseMockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(randomDoubles);
+            horse.move();
 
-
-        assertEquals(expectedValue, horse.getDistance());
+            assertEquals(expectedDistance, horse.getDistance());
+        }
     }
 }

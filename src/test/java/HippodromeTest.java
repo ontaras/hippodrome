@@ -69,13 +69,13 @@ class HippodromeTest {
     @Test
     void getWinner() {
         List<Horse> horses = List.of(
-                new Horse("noname", 2.4,5),
-                new Horse("noname", 2.4, 7),
-                new Horse("noname", 2.4, 10)
+                new Horse("Bucephalus", 2.4, 10),
+                new Horse("Ace of Spades", 2.5, 11),
+                new Horse("Zephyr", 2.6, 12)
         );
         Hippodrome hippodrome = new Hippodrome(horses);
 
-        assertEquals(10, hippodrome.getWinner().getDistance());
+        assertEquals("Zephyr", hippodrome.getWinner().getName());
     }
 
     static double randomSpeed() {
