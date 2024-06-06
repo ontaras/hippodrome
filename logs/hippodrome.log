@@ -1,0 +1,83 @@
+2024-06-06 20:07:49.512 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-06 20:10:42.589 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-06 20:11:03.144 INFO [main] [Main.main(Main.java:34)] - Закінчення стрибків. Переможець: Cherry
+2024-06-06 20:16:45.480 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-06 20:21:29.087 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - Hippodrome: створення Hippodrome, коней 7
+2024-06-06 20:21:29.122 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-06 20:23:03.482 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - Hippodrome: створення Hippodrome, коней [7]
+2024-06-06 20:23:03.516 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-06 20:31:47.133 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Bucephalus, швидкість 2.4
+2024-06-06 20:31:47.141 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Ace of Spades, швидкість 2.5
+2024-06-06 20:31:47.142 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Zephyr, швидкість 2.6
+2024-06-06 20:31:47.142 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Blaze, швидкість 2.7
+2024-06-06 20:31:47.142 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Lobster, швидкість 2.8
+2024-06-06 20:31:47.143 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Pegasus, швидкість 2.9
+2024-06-06 20:31:47.144 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Cherry, швидкість 3.0
+2024-06-06 20:31:47.151 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - створення Hippodrome, коней [7]
+2024-06-06 20:31:47.151 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-06 20:33:09.641 ERROR [main] [Horse.<init>(Horse.java:19)] - Name is blank
+2024-06-06 20:41:42.669 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Bucephalus, швидкість 2.4
+2024-06-06 20:41:42.678 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Ace of Spades, швидкість 2.5
+2024-06-06 20:41:42.678 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Zephyr, швидкість 2.6
+2024-06-06 20:41:42.679 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Blaze, швидкість 2.7
+2024-06-06 20:41:42.679 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Lobster, швидкість 2.8
+2024-06-06 20:41:42.679 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Pegasus, швидкість 2.9
+2024-06-06 20:41:42.680 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Cherry, швидкість 3.0
+2024-06-06 20:41:42.685 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - створення Hippodrome, коней 7
+2024-06-06 20:41:42.686 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-06 20:42:03.200 INFO [main] [Main.main(Main.java:34)] - Закінчення стрибків. Переможець: Cherry
+2024-06-06 20:43:04.185 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.4
+2024-06-06 20:43:04.594 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.9
+2024-06-06 20:43:04.656 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.9
+2024-06-06 20:43:04.663 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.9
+2024-06-06 20:43:04.673 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.9
+2024-06-06 20:43:04.682 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.9
+2024-06-06 20:43:04.694 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.9
+2024-06-06 20:43:04.707 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 2.9
+2024-06-06 20:43:04.767 ERROR [main] [Horse.<init>(Horse.java:16)] - Name is null
+2024-06-06 20:43:04.774 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 10.55555
+2024-06-06 20:43:04.820 ERROR [main] [Horse.<init>(Horse.java:19)] - Name is blank
+2024-06-06 20:43:04.824 ERROR [main] [Horse.<init>(Horse.java:19)] - Name is blank
+2024-06-06 20:43:04.840 ERROR [main] [Horse.<init>(Horse.java:19)] - Name is blank
+2024-06-06 20:43:04.851 ERROR [main] [Horse.<init>(Horse.java:23)] - Speed is negative
+2024-06-06 20:43:04.861 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 0.0
+2024-06-06 20:43:04.866 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я noname, швидкість 0.0
+2024-06-06 20:43:04.871 ERROR [main] [Horse.<init>(Horse.java:27)] - Distance is negative
+2024-06-06 20:43:05.164 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - створення Hippodrome, коней 50
+2024-06-06 20:43:05.293 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #1, швидкість 3.9
+2024-06-06 20:43:05.293 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #2, швидкість 3.7
+2024-06-06 20:43:05.293 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #3, швидкість 2.1
+2024-06-06 20:43:05.294 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #4, швидкість 3.2
+2024-06-06 20:43:05.294 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #5, швидкість 3.7
+2024-06-06 20:43:05.295 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #6, швидкість 2.1
+2024-06-06 20:43:05.295 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #7, швидкість 3.4
+2024-06-06 20:43:05.295 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #8, швидкість 3.8
+2024-06-06 20:43:05.296 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #9, швидкість 3.3
+2024-06-06 20:43:05.296 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #10, швидкість 3.8
+2024-06-06 20:43:05.297 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #11, швидкість 2.3
+2024-06-06 20:43:05.297 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #12, швидкість 3.0
+2024-06-06 20:43:05.298 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #13, швидкість 3.7
+2024-06-06 20:43:05.298 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #14, швидкість 3.6
+2024-06-06 20:43:05.299 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #15, швидкість 2.3
+2024-06-06 20:43:05.299 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #16, швидкість 3.7
+2024-06-06 20:43:05.300 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #17, швидкість 2.2
+2024-06-06 20:43:05.301 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #18, швидкість 3.4
+2024-06-06 20:43:05.301 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #19, швидкість 3.7
+2024-06-06 20:43:05.302 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #20, швидкість 3.5
+2024-06-06 20:43:05.303 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #21, швидкість 2.1
+2024-06-06 20:43:05.303 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #22, швидкість 2.2
+2024-06-06 20:43:05.303 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #23, швидкість 3.3
+2024-06-06 20:43:05.304 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #24, швидкість 2.3
+2024-06-06 20:43:05.304 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #25, швидкість 3.6
+2024-06-06 20:43:05.304 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #26, швидкість 2.8
+2024-06-06 20:43:05.306 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #27, швидкість 2.5
+2024-06-06 20:43:05.306 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #28, швидкість 2.2
+2024-06-06 20:43:05.306 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #29, швидкість 2.2
+2024-06-06 20:43:05.308 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я horse #30, швидкість 3.6
+2024-06-06 20:43:05.308 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - створення Hippodrome, коней 30
+2024-06-06 20:43:05.323 ERROR [main] [Hippodrome.<init>(Hippodrome.java:18)] - Horses list is null
+2024-06-06 20:43:05.335 ERROR [main] [Hippodrome.<init>(Hippodrome.java:21)] - Horses list is empty
+2024-06-06 20:43:05.353 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Bucephalus, швидкість 2.4
+2024-06-06 20:43:05.354 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Ace of Spades, швидкість 2.5
+2024-06-06 20:43:05.354 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Zephyr, швидкість 2.6
+2024-06-06 20:43:05.354 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - створення Hippodrome, коней 3
