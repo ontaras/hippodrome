@@ -14,7 +14,7 @@ class MainTest {
     @Timeout(value = 22, unit = TimeUnit.SECONDS)
     void main_failsIfExecutionTimeExceeds22Seconds() {
         try {
-            Main.main();
+            Main.main(new String[]{});
         } catch (Exception e) {
             throw new RuntimeException("main runs over 22 seconds");
         }
